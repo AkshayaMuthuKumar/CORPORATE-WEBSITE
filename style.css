@@ -1,0 +1,346 @@
+* {
+    font-family: Georgia, serif;
+  }
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
+}
+
+.video-container {
+    position: absolute;
+    width : 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.header {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+}
+
+.header h1 {
+    color: rgba(34, 34, 44, 0.73);
+    font-size: 80px;
+}
+
+.navbar {
+    width : 100%;
+    height : 55px;
+    background-color: rgba(4, 4, 50, 0.73);
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.navbar-nav{
+    font-weight: bold; 
+    justify-content: center;   
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: rgb(2, 2, 43);
+    color: white;
+    font-weight: bold; 
+    border-radius: 10px;
+    width: 300px;
+
+  }
+
+  .container {
+     margin-top: 550px;
+  }
+
+  .column {
+    float: right;
+    width: 22%;
+    padding: 0 10px;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    padding: 10px;
+
+}
+
+.card {
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    height : 420px;
+}
+
+.card-hover:hover {
+    transform: scale(1.05); 
+    transition: transform 0.2s ease-in-out; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.sub-heading {
+    color: white;
+    line-height: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container-1 {
+    border : 1px solid white;
+    background-color: rgb(2, 2, 43);
+    height : 800px;
+}
+
+.container-1-1 {
+    margin : 30px;
+    border: 2px solid white;
+    height : 750px;
+    width : 95%;
+}
+
+#detail {
+    color: white;
+    margin-top: 50px;
+    line-height: 25px;
+}
+
+.container-2-2 {
+    margin : 50px;
+    border: 2px solid rgb(2, 2, 43);
+    height : 500px;
+    width : 94%;
+}
+
+.form {
+    border-color: 2px solid rgb(2, 2, 43);
+}
+
+.form-group {
+    margin : 20px;
+}
+
+#submit {
+    margin: 20px;
+}
+
+.navbar-nav li a {
+    color: white; 
+}
+
+.navbar-nav li.active a {
+    color: white;
+}
+
+.navbar-nav .dropdown-menu li a {
+    color: white;
+    background-color: rgb(2, 2, 43);
+}
+
+.navbar-nav li a:hover {
+    color: rgb(2, 2, 43);
+}
+
+.navbar-nav .dropdown-menu li a:hover {
+    background-color: rgb(2, 2, 43); 
+}
+
+#submit {
+    background-color: rgb(2, 2, 43);
+    color : white; 
+}
+
+.container-3 {
+    background-color: rgb(2, 2, 43);
+    height : 500px;
+}
+
+.about {
+    line-height: 30px;
+    color: white;
+    padding: 20px;
+}
+
+.footer {
+    background-color: rgb(2, 2, 43);
+    color: #fff;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.container-5 {
+    margin : 30px;
+}
+
+ @media (min-width: 770px) and (max-width: 992px) {
+
+    .navbar {
+        height: auto; 
+        padding: 5px;
+        margin-top: 0;
+    }
+    
+    .navbar-collapse {
+        background-color: rgba(4, 4, 50, 0.73);
+    }
+
+    .navbar-nav li a {
+        padding: 10px 0;
+    }
+
+    .header h1 {
+        font-size: 48px; 
+    }
+
+    .container {
+        margin-top : 650px;
+        margin-bottom: 150px;
+    }
+
+    .container-1 {
+        height : 1480px;
+    }
+
+    .container-1-1 {
+        height : 1400px;
+    }
+
+    .container-2 {
+        margin-top : 50px;
+    }
+
+    .container-2-2 {
+        margin-top : 50px;
+    }
+
+    .container-3 {
+        height : auto;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    }
+
+    .card-hover:hover {
+        transform: scale(1.05); 
+        transition: transform 0.2s ease-in-out; 
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+    }
+
+    .video-container {
+        position: absolute;
+        width : 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    
+    video {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+    }
+
+} 
+
+@media (min-width: 350px) and (max-width: 760px) {
+    .header {
+        position: absolute;
+        top: 25%;
+        left: 5%;
+    }
+    
+    .header h1 {
+        font-size: 50px; 
+    }
+
+    .container-3 {
+        height : auto;
+        width: auto;
+    }
+
+    .container-2-2 {
+        height : auto;
+        width: auto;
+    }
+
+    .container-1 {
+        height : auto;
+        width: auto;
+    }
+
+    .container-1-1 {
+        height : auto;
+        width: auto;
+    }
+
+    .container {
+        margin-top: 1100px;
+        margin-bottom: 650px;
+    }
+
+    .card-hover:hover {
+        transform: scale(1.05); 
+        transition: transform 0.2s ease-in-out; 
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+    }
+
+    .video-container {
+        position: absolute;
+        width : 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    
+    video {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+    }
+}
