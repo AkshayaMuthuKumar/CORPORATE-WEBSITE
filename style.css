@@ -67,11 +67,11 @@ video {
      margin-top: 550px;
   }
 
-  .column {
+  /* .column {
     float: right;
     width: 22%;
     padding: 0 10px;
-  }
+  } */
 
   .card-container {
     display: flex;
@@ -144,9 +144,9 @@ video {
     color: white; 
 }
 
-.navbar-nav li.active a {
+/* .navbar-nav li.active a {
     color: white;
-}
+} */
 
 .navbar-nav .dropdown-menu li a {
     color: white;
@@ -154,7 +154,7 @@ video {
 }
 
 .navbar-nav li a:hover {
-    color: rgb(2, 2, 43);
+    color: white;
 }
 
 .navbar-nav .dropdown-menu li a:hover {
@@ -234,32 +234,7 @@ video {
 
     .container-3 {
         height : auto;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
+      
     }
 
     .card-hover:hover {
